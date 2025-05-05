@@ -10,7 +10,6 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendors: ['react', 'react-dom'],
-          gltf: ['/desktop_pc/scene.gltf'],
         },
       },
     },
